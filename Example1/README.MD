@@ -19,3 +19,7 @@ docker push mdelgert/example1:1.0
 docker tag example1:2.0 mdelgert/example1:2.0
 
 docker push mdelgert/example1:2.0
+
+docker pull mdelgert/example1:1.0
+
+docker run -d -p 80:80 --name test1 mdelgert/example1:1.0
