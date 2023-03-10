@@ -1,3 +1,7 @@
+docker build -t example4:1.0 .
+
+docker run -d -p 80:80 --name example4 example4:1.0
+
 # Docker Getting Started Tutorial
 
 This tutorial was written with the intent of helping folks get up and running
