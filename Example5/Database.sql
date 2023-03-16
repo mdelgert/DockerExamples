@@ -131,13 +131,15 @@ CREATE TABLE [dbo].[Notes](
 GO
 SET IDENTITY_INSERT [dbo].[Notes] ON 
 GO
-INSERT [dbo].[Notes] ([Id], [Note]) VALUES (1, N'A         ')
+INSERT [dbo].[Notes] ([Id], [Note]) VALUES (1, N'A')
 GO
-INSERT [dbo].[Notes] ([Id], [Note]) VALUES (2, N'B         ')
+INSERT [dbo].[Notes] ([Id], [Note]) VALUES (2, N'B')
 GO
-INSERT [dbo].[Notes] ([Id], [Note]) VALUES (3, N'C         ')
+INSERT [dbo].[Notes] ([Id], [Note]) VALUES (3, N'C')
 GO
-INSERT [dbo].[Notes] ([Id], [Note]) VALUES (4, N'D         ')
+INSERT [dbo].[Notes] ([Id], [Note]) VALUES (4, N'D')
+GO
+INSERT [dbo].[Notes] ([Id], [Note]) VALUES (5, N'E')
 GO
 SET IDENTITY_INSERT [dbo].[Notes] OFF
 GO
