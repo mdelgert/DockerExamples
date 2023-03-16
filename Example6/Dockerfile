@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/mssql/server:2019-CU14-ubuntu-20.04
 
 COPY Database.sql .
 
-COPY dockerrun.sh .
+#COPY dockerrun.sh .
 
 #COPY dockerrun.sh /usr/local/bin/dockerrun.sh
 
